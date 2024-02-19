@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         blued: '#3195ff',
         grayed: '#2c3e50',
+        grayedSky:'#161E2AF9'
       },
       fontFamily: {
         // Define your attractive fonts here

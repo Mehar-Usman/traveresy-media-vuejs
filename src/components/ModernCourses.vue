@@ -16,7 +16,7 @@
             <p class="text-white text-center text-xl mt-3">A 37-hour master course to take you from beginner to advanced</p>
         </div>
         <div class="flex justify-center mt-6">
-            <LearningBtn/>
+            <LearningBtn />
         </div>
     </div>
 </template>
@@ -34,6 +34,4 @@ export default {
     background-repeat: repeat;
     background-size: cover;
 }
-
-
 </style>

@@ -4,25 +4,23 @@
             <img :src="imgSrc" :alt="imgAlt">
         </figure>
         <section>
-            <div >
+            <div class="mt-4">
                 <h2 class="text-center text-white">{{ title }}</h2>
             </div>
-            <div >
+            <div>
                 <p class="text-center text-white">{{ info }}</p>
             </div>
         </section>
     </article>
 </template>
 <script setup>
-    import {defineProps} from 'vue';
+import { defineProps } from 'vue';
 
-    const props = defineProps({
-        imgSrc:String,
-        imgAlt:String,
-        title:String,
-        info:String
-    })
+const props = defineProps({
+    imgSrc: String,
+    imgAlt: String,
+    title: String,
+    info: String
+})
 </script>
-<style scoped>
-    
-</style>
+<style scoped></style>

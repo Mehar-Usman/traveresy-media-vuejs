@@ -21,6 +21,7 @@
   </div>
 </template>
 
+
 <script setup>
 import { reactive } from 'vue';
 
@@ -466,7 +467,5 @@ const toggleCollapse = (item) => {
 };
 </script>
   
-<style scoped>
-
-</style>
+<style scoped></style>
   
