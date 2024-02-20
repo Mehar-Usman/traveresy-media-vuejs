@@ -28,5 +28,5 @@ import OfferTime from '../components/OfferTime.vue';
 </script>
 
 <style lang="">
-    /* Add your styles here */
+
 </style>
