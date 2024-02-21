@@ -20,21 +20,7 @@ module.exports = {
         grayed: '#2c3e50',
         grayedSky:'#161E2AF9'
       },
-      fontFamily: {
-        // Define your attractive fonts here
-        'raleway': ['Raleway', 'sans-serif'],
-        'montserrat': ['Montserrat', 'sans-serif'],
-        'open-sans': ['Open Sans', 'sans-serif'],
-        'lato': ['Lato', 'sans-serif'],
-        'playfair-display': ['Playfair Display', 'serif'],
-        'roboto': ['Roboto', 'sans-serif'],
-        'source-sans-pro': ['Source Sans Pro', 'sans-serif'],
-        'merriweather': ['Merriweather', 'serif'],
-        'oswald': ['Oswald', 'sans-serif'],
-        'quicksand': ['Quicksand', 'sans-serif'],
-      },
       fontWeight: {
-        // Define additional font weights here
         '100': '100',
         '200': '200',
         '300': '300',
@@ -51,31 +37,30 @@ module.exports = {
     plugin(function({ addComponents }) {
       const headings = {
         h1: {
-          fontSize: '2.25rem', // Customize the size of h1
-          fontWeight: 'bold', // Apply bold font weight to h1
+          fontSize: '2.25rem', 
+          fontWeight: 'bold',
         },
         h2: {
-          fontSize: '1.875rem', // Customize the size of h2
-          fontWeight: 'bold', // Apply bold font weight to h2
+          fontSize: '1.875rem',
+          fontWeight: 'bold', 
         },
         h3: {
-          fontSize: '1.5rem', // Customize the size of h3
-          fontWeight: 'bold', // Apply bold font weight to h3
+          fontSize: '1.5rem', 
+          fontWeight: 'bold', 
         },
         h4: {
-          fontSize: '1.25rem', // Customize the size of h4
-          fontWeight: 'bold', // Apply bold font weight to h4
+          fontSize: '1.25rem', 
+          fontWeight: 'bold', 
         },
         h5: {
-          fontSize: '1.125rem', // Customize the size of h5
-          fontWeight: 'bold', // Apply bold font weight to h5
+          fontSize: '1.125rem', 
+          fontWeight: 'bold', 
         },
         h6: {
-          fontSize: '1rem', // Customize the size of h6
-          fontWeight: 'bold', // Apply bold font weight to h6
+          fontSize: '1rem', 
+          fontWeight: 'bold', 
         },
       };
-
       addComponents(headings);
     })
   ],
