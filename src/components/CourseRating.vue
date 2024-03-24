@@ -35,20 +35,20 @@ import { reactive } from 'vue'
 
 const ratingCards = reactive([
     {
-        imgSrc: 'src/assets/LI.webp',
-        starRating: ['src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg'],
+        imgSrc: 'assets/LI.webp',
+        starRating: ['assets/star.svg', 'assets/star.svg', 'assets/star.svg', 'assets/star.svg', 'assets/star.svg'],
         title: 'Leandro I.',
         description: 'Wow, This course is really easy to follow. Brad is very clear and concise, he goes into small details and I love how organised his file structure is. The final product is a real estate website that is pretty much ready to be deployed. I would definitely recommend this course to other students.'
     },
     {
-        imgSrc: 'src/assets/Al.webp',
-        starRating: ['src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg'],
+        imgSrc: 'assets/Al.webp',
+        starRating: ['assets/star.svg', 'assets/star.svg', 'assets/star.svg', 'assets/star.svg', 'assets/star.svg'],
         title: 'Alexey L.',
         description: 'Watching a lot of videos from Brad and am always happy with his extraordinary tutoring abilities. He keeps things dead simple and nothing is missed, so learning new things is easy and fast. Thank you Brad for sharing your experience with us!'
     },
     {
-        imgSrc: 'src/assets/JW.webp',
-        starRating: ['src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg', 'src/assets/star.svg'],
+        imgSrc: 'assets/JW.webp',
+        starRating: ['assets/star.svg', 'assets/star.svg', 'assets/star.svg', 'assets/star.svg', 'assets/star.svg'],
         title: 'Josef W.',
         description: "The course is very well structured. All chapters are understandable. It also becomes clear that you can separate frontend and backend development, which is important to know. Finally, I would like to say that I like Brad's relaxed way of explaining things. Thanks Brad!"
     },

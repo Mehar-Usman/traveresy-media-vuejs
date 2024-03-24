@@ -2,7 +2,7 @@
   <header class="bg-gray-900 w-full  fixed sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0 ">
       <router-link to="/">
-        <img class="" src="../assets/logo.webp" alt="Workcation">
+        <img class="" src="/assets/logo.webp" alt="Workcation">
       </router-link>
       <div class="sm:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block text-white focus:text-white focus:outline-none">

@@ -25,7 +25,7 @@
             <div class="" v-for="(content, index) in card.nestedContent" :key="index">
               <div class="flex  gap-2 mt-2">
                 <div class="w-12 md:w-10">
-                  <img src="../assets/tick.svg" alt="">
+                  <img src="/assets/tick.svg" alt="">
                 </div>
                 <div class="w-full">
                   <p class="text-lg">{{ content }}</p>

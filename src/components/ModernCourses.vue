@@ -9,7 +9,7 @@
             <h1 class="text-center text-white ">Modern JavaScript 2.0 Course</h1>
         </div>
         <div class="flex justify-center mt-6 px-4 md:px-0 ">
-            <img class="w-[500px]" src="../assets/modernCoursesImg.jpg" alt="">
+            <img class="w-[500px]" src="/assets/modernCoursesImg.jpg" alt="">
         </div>
         <div class="mt-6">
             <h1 class=" text-center text-white">Learn Modern JavaScript From The Beginning</h1>
@@ -29,7 +29,7 @@ export default {
 </script>
 <style scoped>
 .bg-img {
-    background-image: url(../assets/bgHome.avif);
+    background-image: url(/assets/bgHome.avif);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;

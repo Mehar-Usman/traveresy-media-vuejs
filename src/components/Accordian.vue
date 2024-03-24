@@ -6,9 +6,9 @@
         @click="toggleCollapse(item)">
         <span class="w-5/6 md:w-full">{{ item.title }}</span>
         <span class="absolute right-2 md:right-10 transition-all duration-500 ease-in-out delay-500 text-xl"
-          v-if="!item.open"><img src="../assets/plus.svg" alt=""></span>
+          v-if="!item.open"><img src="/assets/plus.svg" alt=""></span>
         <span class="absolute right-2 md:right-10 transition-all duration-500 ease-in-out delay-500 text-xl" v-else><img
-            src="../assets/minus.svg" alt=""></span>
+            src="/assets/minus.svg" alt=""></span>
       </button>
       <div :data-collapse="item.id"
         :class="['h-0 rounded-b  overflow-hidden bg-white', { 'h-auto px-2 md:px-10 pb-10': item.open }]">

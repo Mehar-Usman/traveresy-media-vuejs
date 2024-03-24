@@ -8,7 +8,7 @@
         <section class="mt-8">
           <div v-for="(item, index) in learningItems" :key="index" class="flex gap-4  mt-4">
             <div class=" w-1/6 lg:w-10">
-              <img src="../assets/tick.svg" alt="">
+              <img src="/assets/tick.svg" alt="">
             </div>
             <div class="w-5/6 md:w-full">
               <div v-html="item" class=" text-sm md:text-lg text-gray-600"></div>

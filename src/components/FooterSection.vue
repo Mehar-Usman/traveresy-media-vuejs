@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col gap-4 md:flex md:flex-row  items-start md:items-center justify-between bg-grayed py-6 px-8">
         <div>
-            <img src="../assets/logo.webp" alt="Logo">
+            <img src="/assets/logo.webp" alt="Logo">
         </div>
         <div>
             <p class="text-white text-lg">© 2024 Traversy Media. All Rights Reserved</p>
@@ -38,11 +38,11 @@ const getLink = (link) => {
 
 const getIcon = (link) => {
     // Determine which property is present in the link object
-    if (link.twitterIcon) return `src/assets/${link.twitterIcon}`;
-    if (link.instaIcon) return `src/assets/${link.instaIcon}`;
-    if (link.youtubeIcon) return `src/assets/${link.youtubeIcon}`;
-    if (link.githubIcon) return `src/assets/${link.githubIcon}`;
-    if (link.linkedinIcon) return `src/assets/${link.linkedinIcon}`;
+    if (link.twitterIcon) return `assets/${link.twitterIcon}`;
+    if (link.instaIcon) return `assets/${link.instaIcon}`;
+    if (link.youtubeIcon) return `assets/${link.youtubeIcon}`;
+    if (link.githubIcon) return `assets/${link.githubIcon}`;
+    if (link.linkedinIcon) return `assets/${link.linkedinIcon}`;
 };
 </script>
   
