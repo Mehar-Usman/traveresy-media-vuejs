@@ -25,25 +25,25 @@ import OverviewFooterCards from './OverviewFooterCards.vue';
 
 const cards = [
     {
-        imgSrc: 'assets/overview-1.webp',
+        imgSrc: './assets/overview-1.webp',
         imgAlt: 'Img 1',
         title: '100,000+',
         info: 'Students Enrolled'
     },
     {
-        imgSrc: 'assets/overview-2.webp',
+        imgSrc: './assets/overview-2.webp',
         imgAlt: 'Img 1',
         title: '4.7+',
         info: 'Rated'
     },
     {
-        imgSrc: 'assets/overview-3.webp',
+        imgSrc: './assets/overview-3.webp',
         imgAlt: 'Img 1',
         title: 'English',
         info: 'Course Language'
     },
     {
-        imgSrc: 'assets/overview-4.webp',
+        imgSrc: './assets/overview-4.webp',
         imgAlt: 'Img 1',
         title: 'Last Update',
         info: '02/2023'
@@ -52,27 +52,27 @@ const cards = [
 
 const overviewFooterCard = [
     {
-        CardImgSrc: 'assets/box-1.webp',
+        CardImgSrc: './assets/box-1.webp',
         imgAlt: 'card-1',
         content: '37+ hours on-demand video'
     },
     {
-        CardImgSrc: 'assets/box-2.webp',
+        CardImgSrc: './assets/box-2.webp',
         imgAlt: 'card-1',
         content: '20+ downloadable resources & docs'
     },
     {
-        CardImgSrc: 'assets/box-3.webp',
+        CardImgSrc: './assets/box-3.webp',
         imgAlt: 'card-1',
         content: 'Full lifetime access'
     },
     {
-        CardImgSrc: 'assets/box-4.webp',
+        CardImgSrc: './assets/box-4.webp',
         imgAlt: 'card-1',
         content: 'Access on mobile and TV'
     },
     {
-        CardImgSrc: 'assets/box-5.webp',
+        CardImgSrc: './assets/box-5.webp',
         imgAlt: 'card-1',
         content: 'Certificate of completion'
     }

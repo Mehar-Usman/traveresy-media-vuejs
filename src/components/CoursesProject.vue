@@ -36,9 +36,9 @@
 import { reactive } from 'vue'
 
 const cards = reactive([
-    { imgSrc: 'assets/CorProject_1.webp', title: 'Flixx', description: 'Movie listing UI using a public API for movies/TV shows. Search, pagination and custom router features.' },
-    { imgSrc: 'assets/CorProject_2.webp', title: 'Tracalorie', description: 'Object oriented project with classes, private properties, static methods, local storage and Bootstrap UI components.' },
-    { imgSrc: 'assets/CorProject_3.webp', title: 'RandomIdeas', description: 'Full stack app using Express/MongoDB on the server. Webpack tooling and custom modules and components on the client.' },
+    { imgSrc: './assets/CorProject_1.webp', title: 'Flixx', description: 'Movie listing UI using a public API for movies/TV shows. Search, pagination and custom router features.' },
+    { imgSrc: './assets/CorProject_2.webp', title: 'Tracalorie', description: 'Object oriented project with classes, private properties, static methods, local storage and Bootstrap UI components.' },
+    { imgSrc: './assets/CorProject_3.webp', title: 'RandomIdeas', description: 'Full stack app using Express/MongoDB on the server. Webpack tooling and custom modules and components on the client.' },
 ]);
 </script>
 <style></style>

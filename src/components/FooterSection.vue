@@ -20,11 +20,11 @@
 import { reactive } from 'vue';
 
 const footerLinks = reactive([
-    { twitterHref: 'https://twitter.com/traversymedia', twitterIcon: 'twitter.svg' },
-    { instaHref: 'https://www.instagram.com/traversymedia/', instaIcon: 'insta.svg' },
-    { youtubeHref: 'https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA', youtubeIcon: 'youtube.svg' },
+    { twitterHref: 'https://twitter.com/traversymedia', twitterIcon: './twitter.svg' },
+    { instaHref: 'https://www.instagram.com/traversymedia/', instaIcon: './insta.svg' },
+    { youtubeHref: 'https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA', youtubeIcon: './youtube.svg' },
     { githubHref: 'https://github.com/bradtraversy', githubIcon: 'github.svg' },
-    { linkedinHref: 'https://www.linkedin.com/in/bradtraversy/', linkedinIcon: 'linkedin.svg' },
+    { linkedinHref: 'https://www.linkedin.com/in/bradtraversy/', linkedinIcon: './linkedin.svg' },
 ]);
 
 const getLink = (link) => {
